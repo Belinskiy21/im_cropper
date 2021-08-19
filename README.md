@@ -6,7 +6,7 @@ Application configuration:
 
 
 
-* Application uri on Heroku: https://git.heroku.com/enigmatic-reaches-68227
+* Application uri on Heroku: https://enigmatic-reaches-68227.herokuapp.com/
 * GitHub uri is: https://github.com/Belinskiy21/im_cropper
 
 
