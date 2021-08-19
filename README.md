@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application configuration:
+  - Rails version ~> 6.1
+  - Ruby version  ~> 2.7
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+* Application uri on Heroku: https://git.heroku.com/enigmatic-reaches-68227
+* GitHub uri is: https://github.com/Belinskiy21/im_cropper
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Open questions:
+for large request to application we need to create all necessary models such as:
+  - User (for authentication)
+  - Image (for storing images in db)
+  - configure server for dynamic scaling with workers
+  - or use some cloud scaling solution as Kubernetes
